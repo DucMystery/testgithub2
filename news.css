@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+}
+header img{
+    height: 79px;
+    width: 100%;
+    background:lightskyblue;
+}
+nav a{
+    text-decoration: none;
+    font-weight: bold;
+    padding:20px;
+    margin: auto;
+}
+nav{
+    background: wheat;
+    text-align: center;
+    padding: 20px;
+}
+nav a:link,nav a:visited{
+    color: blue;
+}
+nav a:hover{
+    color: black;
+}
+h2 a{
+    text-decoration: none;
+}
+nav>ul:hover{
+    display: none;
+}
+#all{
+    max-width: 80%;
+    margin: auto;
+    text-align: center;
+}

@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+}
+header img{
+    height: 79px;
+    width: 100%;
+    background: lightskyblue;
+}
+nav a{
+    text-decoration: none;
+    font-weight: bold;
+    padding:20px;
+    margin: auto;
+}
+nav{
+    background: wheat;
+    text-align: center;
+    padding: 20px;
+    margin: auto;
+}
+nav a:link,nav a:visited{
+    color: blue;
+}
+nav a:hover{
+    color: black;
+}
+section{
+    float: left;
+    border: 1px solid gray;
+    margin: 10px;
+    padding: 10px;
+    line-height: 40px;
+    text-align: left;
+    width: 30%;
+    background: lightgray;
+}
+section li{
+    list-style-type: none;
+    text-align: left;
+}
+span{
+    color: indianred;
+    font-weight: bold;
+}
+h1{
+    background: royalblue;
+}
+#all{
+    max-width: 80%;
+    margin: auto;
+    text-align: center;
+    background-color: lightyellow;
+}
